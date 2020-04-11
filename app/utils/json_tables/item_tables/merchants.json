@@ -1,0 +1,16 @@
+{
+    "merchant general goods": {
+        "barrel of pickled {preserved_food}": {
+            "weight": 15,
+            "value": 5,
+            "description": "",
+            "type": "food"
+        },
+        "barrel of salted {preserved_food}": {
+            "weight": 15,
+            "value": 5,
+            "description": "",
+            "type": "food"
+        }
+    }
+}

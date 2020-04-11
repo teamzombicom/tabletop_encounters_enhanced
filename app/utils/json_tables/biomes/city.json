@@ -1,0 +1,27 @@
+{
+    "city": {
+        "terrain": {
+            
+        },
+        "obstacles": {
+
+        },
+        "bestiary": {
+            
+        },
+        "climate": {
+            "temperature": "",
+            "humidity": "",
+            "special_weather": []
+        },
+        "loot_tables": [],
+        "foraging": {
+            "plants": [],
+            "animals": [],
+            "minirals": [],
+            "misc": {
+
+            }
+        }
+    }
+}

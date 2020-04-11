@@ -1,0 +1,66 @@
+{
+    "darts": {
+        "save": "DEX",
+        "damage_type": "Piercing",
+        "good_reaction": "Prone",
+        "bad_reaction": "Jump",
+        "fumble_injury": "Puncture Wound",
+        "fumble_penalty": "-1 Con"
+    },
+    "pit": {
+        "save": "DEX",
+        "damage_type": "Bludgeoning",
+        "good_reaction": "Jump",
+        "bad_reaction": "Prone",
+        "fumble_injury": "Twisted Ankle",
+        "fumble_penalty": "-5 Speed"
+    },
+    "snare": {
+        "save": "STR",
+        "damage_type": "Slashing",
+        "good_reaction": "Jump",
+        "bad_reaction": "Prone",
+        "fumble_injury": "Restrained",
+        "fumble_penalty": "Restrained"
+    },
+    "spikes": {
+        "save": "DEX",
+        "damage_type": "Piercing",
+        "good_reaction": "N/A",
+        "bad_reaction": "Prone",
+        "fumble_injury": "Hamstrung",
+        "fumble_penalty": "-5 Speed"
+    },
+    "falling_debris": {
+        "save": "STR",
+        "damage_type": "Bludgeoning",
+        "good_reaction": "Brace",
+        "bad_reaction": "Prone",
+        "fumble_injury": "Concussed",
+        "fumble_penalty": "-1 Int"
+    },
+    "swinging_ram": {
+        "save": "DEX",
+        "damage_type": "Bludgeoning",
+        "good_reaction": "Prone",
+        "bad_reaction": "Jump",
+        "fumble_injury": "Winded",
+        "fumble_penalty": "-1 Con"
+    },
+    "poison": {
+        "save": "CON",
+        "damage_type": "Poison",
+        "good_reaction": "Prone",
+        "bad_reaction": "N/A",
+        "fumble_injury": "Poisoned",
+        "fumble_penalty": "Poisoned"
+    },
+    "flame": {
+        "save": "DEX",
+        "damage_type": "Fire",
+        "good_reaction": "Prone",
+        "bad_reaction": "Brace",
+        "fumble_injury": "Burned",
+        "fumble_penalty": "-1 AC"
+    }
+}

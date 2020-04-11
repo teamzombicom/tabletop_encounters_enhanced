@@ -1,0 +1,17 @@
+{
+    "Salt Fens": {
+        "biomes": [
+            "Salt Marsh",
+            "River"
+        ]
+    },
+    "Port Vyshaan": {
+        "biomes": [
+            "City",
+            "Sewer",
+            "Road",
+            "Alley",
+            "City Dock"
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "Salt Marsh": {
+        "terrain": {
+            "Shallow Bog": "a shallow bog studded with 10' wide trees. The water surface is covered in densely packed duckweed.",
+            "Peat Bog Hills": "low, peaty hills emerge from the salt fen, covered in sedge patches and hedgerows",
+            "Salt Marsh": "isolated grassy hills cut by dozens of small streams and waterways",
+            "Kettle Lakes": "lakes formed by melting glacial ice, separated by grassy hills",
+            "String Bog": "winding snakelike ridges at right angles to water flowing across soggy sedge strips",
+            "Palsa Bog Caves": "circles of dry, elevated peat carpet studded with openings to small caves filled with needle ice",
+            "Pond Clearing": "a small indentation filled with meltwater from a single massive chunk of slowly melting ice",
+            "Raised Bog": "marshy lakes surrounded by rings of floating vegetation mats and strands of evergreen trees",
+            "Kame": "one to four oddly shaped, chunky hills made of sediment",
+            "Palse Bog": "raised oval peat carpets ringed by icy mud, with a dense ice layer underground"
+        },
+        "obstacles": {
+            "stream": "",
+            "river": "",
+            "lake": "",
+            "ice patch": "",
+            "pud pit": "",
+            "fallen tree": "",
+            "swamp gas": "",
+            "duckweed": "",
+            "rocky ground": "",
+            "stinging nettles": "",
+            "quicksand": "",
+            "sedge mats": "",
+            "thick vegetation": "",
+            "fetid water": "",
+            "disease": ""
+        },
+        "bestiary": {
+            
+        },
+        "climate": {
+            "temperature": "",
+            "humidity": "",
+            "special_weather": []
+        },
+        "loot_tables": [],
+        "foraging": {
+            "plants": [],
+            "animals": [],
+            "minerals": [],
+            "misc": {
+                "iron_slime": ""
+            }
+        }
+    }
+}
