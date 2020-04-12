@@ -12,7 +12,7 @@ class BaseTable:
         for path in self.table_dir:
             with open(path) as table_contents:
                 self.tables[path.stem] = json.load(table_contents)
-        if self.tables == None:
+        if self.tables.__len__() < 1:
             raise ValueError('No matching record')
 
 class Trap(BaseTable):
