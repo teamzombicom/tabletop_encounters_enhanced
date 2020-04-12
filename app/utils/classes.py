@@ -12,6 +12,8 @@ class BaseTable:
         for path in self.table_dir:
             with open(path) as table_contents:
                 self.tables[path.stem] = json.load(table_contents)
+        if self.tables == None:
+            raise ValueError('No matching record')
 
 class Trap(BaseTable):
     def __init__(self, trap_type: str):
@@ -24,9 +26,9 @@ class Trap(BaseTable):
         self.fumble_injury = self.tables[trap_type]['fumble_injury']
         self.fumble_penalty = self.tables[trap_type]['fumble_penalty']
 
-class Region(BaseTable):
+class EncounterRegion(BaseTable):
     def __init__(self, region: str):
-         super().__init__('misc', 'regions')
+         super().__init__('regions')
          
 
 class ValidateTables:
@@ -42,6 +44,10 @@ class ClassesTest(unittest.TestCase):
     def test_base_table(self):
         base_table = BaseTable('biomes')
         self.assertIsInstance(base_table.tables['city'], dict)
+
+    def test_base_table_aint_no_fool(self):
+        with self.assertRaises(ValueError):
+            base_table = BaseTable('NOT A THING')
 
     def test_validate_all_json_tables_against_schema(self):
         table_directory = BASE_DIRECTORY.rglob('**/utils/json_tables/*')
@@ -63,19 +69,9 @@ class ClassesTest(unittest.TestCase):
         self.assertEqual(base_trap.fumble_penalty, '-1 Con')
 
     def test_region_class_has_expected_attributes(self):
-        test_region = Region('Port Vyshaan')
+        test_region = EncounterRegion('port_vyshaan')
         #self.assertIsInstance(test_region.biomes, dict)
         pass
 
 if __name__ == '__main__':
     unittest.main()
-    ###Snipped graveyard###
-    """
-    #self.biomes = {}
-         #for region in self.values:
-            #for biome in region['biomes']:
-                #create new instance of Biomes class using that biome name
-                #store the values from biome into this instance of region class
-                #pass
-         #print(self.values)
-    """

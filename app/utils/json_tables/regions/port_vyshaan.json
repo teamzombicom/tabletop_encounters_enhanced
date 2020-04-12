@@ -1,0 +1,9 @@
+{
+    "biomes": [
+        "City",
+        "Sewer",
+        "Road",
+        "Alley",
+        "City Dock"
+    ]
+}
