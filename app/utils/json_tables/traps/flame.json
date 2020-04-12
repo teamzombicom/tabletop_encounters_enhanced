@@ -1,0 +1,8 @@
+{
+    "save": "DEX",
+    "damage_type": "Fire",
+    "good_reaction": "Prone",
+    "bad_reaction": "Brace",
+    "fumble_injury": "Burned",
+    "fumble_penalty": "-1 AC"
+}

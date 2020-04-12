@@ -1,0 +1,8 @@
+{
+        "save": "DEX",
+        "damage_type": "Bludgeoning",
+        "good_reaction": "Prone",
+        "bad_reaction": "Jump",
+        "fumble_injury": "Winded",
+        "fumble_penalty": "-1 Con"
+}

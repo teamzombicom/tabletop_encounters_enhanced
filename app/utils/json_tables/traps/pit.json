@@ -1,0 +1,8 @@
+{
+        "save": "DEX",
+        "damage_type": "Bludgeoning",
+        "good_reaction": "Jump",
+        "bad_reaction": "Prone",
+        "fumble_injury": "Twisted Ankle",
+        "fumble_penalty": "-5 Speed"
+}

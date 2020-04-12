@@ -1,0 +1,8 @@
+{
+    "save": "DEX",
+    "damage_type": "Piercing",
+    "good_reaction": "Prone",
+    "bad_reaction": "Jump",
+    "fumble_injury": "Puncture Wound",
+    "fumble_penalty": "-1 Con"
+}

@@ -3,11 +3,15 @@ import jsonschema
 import os 
 import unittest
 import pathlib
-from classes import Trap
+import classes
+
+
+
 
 
 def TestTrap(self):
-    test = Trap('darts')
+    test = classes.Trap('darts')
+    #test = clasTrap('darts')
     print(test.save)
 
 class TableUtilitiesTest(unittest.TestCase):

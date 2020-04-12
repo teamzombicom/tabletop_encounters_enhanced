@@ -1,0 +1,8 @@
+{
+    "save": "STR",
+    "damage_type": "Slashing",
+    "good_reaction": "Jump",
+    "bad_reaction": "Prone",
+    "fumble_injury": "Restrained",
+    "fumble_penalty": "Restrained"
+}

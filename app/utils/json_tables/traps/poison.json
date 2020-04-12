@@ -1,0 +1,8 @@
+{
+    "save": "CON",
+    "damage_type": "Poison",
+    "good_reaction": "Prone",
+    "bad_reaction": "N/A",
+    "fumble_injury": "Poisoned",
+    "fumble_penalty": "Poisoned"
+}

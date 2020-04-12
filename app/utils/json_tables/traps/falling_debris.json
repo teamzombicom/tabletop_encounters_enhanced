@@ -1,0 +1,8 @@
+{
+    "save": "STR",
+    "damage_type": "Bludgeoning",
+    "good_reaction": "Brace",
+    "bad_reaction": "Prone",
+    "fumble_injury": "Concussed",
+    "fumble_penalty": "-1 Int"
+}
