@@ -5,11 +5,14 @@ import unittest
 import pathlib
 from app.utils import classes
 
-def EncounterGenerator(region: str):
+def EncounterGenerator(region: str, biome: str =None):
     encounter_dict = {}
     encounter_region = classes.EncounterRegion(region)
-    encounter_biome = classes.Biome('salt_marsh')#encounter_region.rollBiome()
-    
+
+    if biome == None:
+        encounter_biome = classes.Biome('salt_marsh')#encounter_region.rollBiome()
+    else:
+        encounter_biome = classes.Biome(biome)
     encounter_dict['terrain'] = encounter_biome.rollTerrain()
     encounter_dict['obstacles'] = encounter_biome.rollObstacles()
 

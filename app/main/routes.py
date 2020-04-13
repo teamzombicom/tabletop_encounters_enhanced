@@ -13,8 +13,9 @@ def get_capabilities():
     return response
 
 @bp.route("/encounters/<string:region>")
-def create_encounter(region):
-    encounter = table_utils.EncounterGenerator(region)
+@bp.route("/encounters/<string:region>/<string:biome>")
+def create_encounter(region: str, biome: str = None):
+    encounter = table_utils.EncounterGenerator(region, biome)
     return encounter
 """
 @bp.route("/traps")
