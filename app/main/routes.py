@@ -2,18 +2,26 @@ import flask
 import json
 from datetime import datetime, timedelta
 from app.main import bp
+from app.utils import table_utils
 
 @bp.route("/")
 def get_capabilities():
-    data = "documentation yo"
+    #TODO: Scrape all routes somehow and list here
+    #TODO: Return routes
+    data = "try /encounters/<string:region>"
     response = json.dumps(data)
     return response
 
+@bp.route("/encounters/<string:region>")
+def create_encounter(region):
+    encounter = table_utils.EncounterGenerator(region)
+    return encounter
+"""
 @bp.route("/traps")
 def roll_trap():
     #trap_list = json.load()
     return None #flask.jsonify(trap_list)
-"""
+
 @bp.route("/encounters/<string:region>")
 def get_collection_id(self, collectionId):
     if not self.current_collections_caps:
@@ -151,3 +159,7 @@ def get_polygon(self, collectionId):
         mimetype='application/json'
     )
 """
+
+if __name__ == '__main__':
+    #create_encounter('port_vyshaan')
+    pass

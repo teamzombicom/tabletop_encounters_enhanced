@@ -40,7 +40,7 @@ class EncounterRegion:
                 new_biome = Biome(biome_key)
                 self.biomes[biome_key] = new_biome
 
-    def rollRegion(self):
+    def rollBiome(self):
         biome_key = random.choice(list(self.biomes))
         return self.biomes[biome_key]
 
@@ -150,7 +150,7 @@ class ClassesTest(unittest.TestCase):
 
     def test_encounter_region_class_returns_random_biomes(self):
         test_region = EncounterRegion('port_vyshaan')
-        random_biome = test_region.rollRegion()
+        random_biome = test_region.rollBiome()
         self.assertIsInstance(random_biome, Biome)
 
 if __name__ == '__main__':
