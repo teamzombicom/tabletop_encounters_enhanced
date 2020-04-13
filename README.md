@@ -33,7 +33,9 @@ Often, a dungeon master may roll in a bestiary for random encounters, and if the
 * Get unit tests running as a whole and in an automated fashion
 * Better package management
 * Build out weather system
-* Build out bestiary
+* Convert bestiary/srd_5e_monsters.json to fit our needs
 * Build out foraging and item tables
 * More and handier flask routes
 * Flesh out more biomes and regions
+* Initialize SQLLite DB and convert json_tables
+* Adapt table utils to read in from DB instead of json_tables dir
