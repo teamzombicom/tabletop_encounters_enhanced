@@ -1,19 +1,13 @@
 {
-    "display_name": "City",
+    "display_name": "River",
     "terrain": {
-        "narrow_alley": "",
-        "rooftop": "",
-        "docks": "",
-        "house": "",
-        "inn": ""
+        
     },
     "obstacles": {
-        "wagon": "",
-        "child": "",
-        "pothole": ""
+
     },
     "bestiary": {
-        "rat": ""
+        
     },
     "climate": {
         "temperature": "",

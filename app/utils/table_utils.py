@@ -5,20 +5,26 @@ import unittest
 import pathlib
 import classes
 
+def EncounterGenerator(encounter_region: str):
+    encounter_dict = {}
+    region = classes.EncounterRegion(encounter_region)
 
 
 
 
-def TestTrap(self):
-    test = classes.Trap('darts')
-    #test = clasTrap('darts')
-    print(test.save)
+    return json.dumps(encounter_json)
+
+
+
+
+
 
 class TableUtilitiesTest(unittest.TestCase):
-    def test_get_table_can_parse_all_listed_tables(self):
-        testtarget = "darts"
-        TestTrap(testtarget)
+    def test_encounter_generator_returns_expected_values(self):
+        base_encounter = EncounterGenerator('port_vyshaan')
+        print(base_encounter)
 
+        
 if __name__ == '__main__':
     unittest.main()
 

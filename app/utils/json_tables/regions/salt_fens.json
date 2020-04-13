@@ -1,6 +1,6 @@
 {
     "biomes": [
-        "Salt Marsh",
-        "River"
+        "salt_marsh",
+        "river"
     ]
 }
