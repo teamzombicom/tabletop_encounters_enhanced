@@ -1,9 +1,9 @@
 from dotenv import load_dotenv
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 import os
 
 """Any libraries that need to be globally accessible (database, auth, etc)"""
-#db = SQLAlchemy()
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 def create_app():
@@ -12,18 +12,19 @@ def create_app():
     load_dotenv()
 
     #Initialize global plugins
-    """db.init_app(app)"""
+    """app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("SQL_ALCHEMY_DATABASE_URI")
+    db = SQLAlchemy(app)
+    db.Model.metadata.reflect(db.engine)
+    """
 
-    #Register blueprints
-    #app.register_blueprint(errors.bp)
-    
+    #Register blueprints    
     from app.main import bp as main_bp
     app.register_blueprint(main_bp)
 
     from app.errors import bp as errors_bp
     app.register_blueprint(errors_bp)
 
-    ### Handle logging when  ###
+    ### Handle logging when app is not in debug or testing modes ###
     if not app.debug and not app.testing:
         #todo: setup logging here
         pass
