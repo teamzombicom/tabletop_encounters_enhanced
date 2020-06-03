@@ -8,6 +8,7 @@ from app.utils import table_utils
 def get_capabilities():
     #TODO: Scrape all routes somehow and list here
     #TODO: Return routes
+    
     data = "try /encounters/<string:region>"
     response = json.dumps(data)
     return response

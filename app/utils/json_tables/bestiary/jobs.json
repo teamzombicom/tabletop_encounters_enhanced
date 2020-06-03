@@ -1,0 +1,399 @@
+{
+    "civil_servants": {
+        "description": "",
+        "contents": {
+            "noble": {
+                "title": "City Council Member",
+                "description": "one of the few city council members in the city",
+                "weapon": "longsword",
+                "trade_goods": "ring_gold",
+                "frequency": 0.0002
+            },
+            "judge": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0.0005
+            },
+            "sheriff": {
+                "title": "Sheriff",
+                "description": "One of the handful of sheriffs, who run monthly county-level courts and adjudicate trials by combat",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "bailiff": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "constable": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "chief_tithing_officer": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            }
+        }  
+    },
+    "defense": {
+        "description": "",
+        "contents": {
+            "guard": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "nightwatchman": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "archer": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            }
+        }
+    },
+    "production": {
+        "description": "",
+        "contents": { 
+            "farmer": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "herder": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "cheesemaker": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "miller": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "miner": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "prospector": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "herbalist": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "baker": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "fisherman": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "whaler": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "charcoalburner": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "fletcher": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "armorer": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "blacksmith": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "weaponsmith": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "clothier": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "seamstress": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "beekeeper": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "butcher": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "cooper": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "treecutter": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "chicken_farmer": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "cobbler": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            }
+        }
+    },
+    "transportation": {
+        "description": "",
+        "contents": {
+            "courier": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "porter": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "tunnelrunner": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "ferryman": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "coachman": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "sailor": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            }
+        }
+    },
+    "services": {
+        "description": "",
+        "contents": {
+            "tinker": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "barber": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "apothecary": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "scribe": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "cartographer": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "navigator": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "locksmith": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "prostitute": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            },
+            "engraving": {
+                "title": "",
+                "description": "",
+                "weapon": "",
+                "trade_goods": "",
+                "frequency": 0
+            }
+        }
+    },
+    "mercenaries": {
+        "description": "",
+        "contents": {
+
+        }
+    },
+    "exotic": {
+        "alchemist": {
+            "title": "",
+            "description": "",
+            "weapon": "",
+            "trade_goods": "",
+            "frequency": 0
+        },
+        "scrolls": {
+            "title": "",
+            "description": "",
+            "weapon": "",
+            "trade_goods": "",
+            "frequency": 0
+        },
+        "enchanter": {
+            "title": "",
+            "description": "",
+            "weapon": "",
+            "trade_goods": "",
+            "frequency": 0
+        },
+        "wizard": {
+            "title": "",
+            "description": "",
+            "weapon": "",
+            "trade_goods": "",
+            "frequency": 0
+        },
+        "priest": {
+            "title": "",
+            "description": "",
+            "weapon": "",
+            "trade_goods": "",
+            "frequency": 0
+        }
+    }
+}

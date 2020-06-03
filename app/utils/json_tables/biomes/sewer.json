@@ -1,0 +1,145 @@
+{
+    "display_name": "Sewer",
+    "terrain": {
+        "four_way_sewer_main": "a plus-shaped junction between 10' sewer channels, with narrow walkways over each one and elevated sides.",
+        "three_way_sewer_main": "a t-shaped junction between 10' sewer channels, with narrow walkways over each channel and elevated sides",
+        "straight_sewer_main": "a straight section of sewer channel, collecting water through drains in the walls",
+        "vertical_sewer_drain": "a grate overhead feeds directly into a straight section of sewer channel",
+        "sewer_access": "a ladder here allows for open street access; the hatch is sealed with a special tool",
+        "basement_acess": "a specially sealed access door leads into the basement of some building here to allow maintenance on drains",
+        "four_way_sewer_narrow": "a plus-shaped junction of 5' sewer channels with no walkways",
+        "three_way_sewer_narrow": "a t-shaped junction of 5' sewer channels with no walkways",
+        "straight_sewer_narrow": "a straight, narrow sewer pipe fed by drains built into the walls",
+        "ruined_wall": "a section of the wall here has caved in and opens into a dark underground cave system",
+        "ruined_bottom": "an underground sinkhole has collapsed the floor of the sewer in, leading into darkness below"
+    },
+    "obstacles": [
+        "slick sewer slime",
+        "loose debris",
+        "backed up pipe section/flooding",
+        "corpse",
+        "gates",
+        "hand cranked loch",
+        "poisonous gas clouds",
+        "bear trap",
+        "tripwire",
+        "dangerous fungi",
+        "low ceilings",
+        "flammable gas clouds",
+        "cobwebs"
+    ],
+    "bestiary": {
+        "neutral": {
+            "description": "not hostile unless provoked",
+            "spawn_floor": 1,
+            "spawn_ceiling": 6,
+            "contents": [
+                "Bat",
+                "Giant Bat",
+                "Giant Spider",
+                "Spider",
+                "Poisonous Snake"
+            ]
+        },
+        "hazards": {
+            "description": "hostile if approached",
+            "spawn_floor": 1,
+            "spawn_ceiling": 4,
+            "contents": [
+                "swarm of rats",
+                "swarm of spiders",
+                "swarm of cockraoches"
+            ]
+        },
+        "predators": {
+            "description": "hostile",
+            "spawn_floor": 1,
+            "spawn_ceiling": 4,
+            "contents": [
+                "troglodyte",
+                "giant centipede",
+                "giant rat",
+                "gelatinous cube",
+                "rutterkin",
+                "fathomer",
+                "flail snail",
+                "black pudding",
+                "gray ooze",
+                "shambling mound",
+                "umber hulk",
+                "troll",
+                "vampire spawn",
+                "mimic"
+            ]
+        },
+        "factions": {
+            "deep_ones": [
+                "fathomer",
+                "deep scion",
+                "drowned blade",
+                "drowned ascetic",
+                "kuo-toa",
+                "kuo-toa archpriest",
+                "sahuagin",
+                "drowned master"
+            ],
+            "citizens": [
+                "child",
+                "commoner",
+                "craftsman",
+                "noble"
+            ],
+            "criminals": [
+                "robber",
+                "burglar",
+                "pickpockets",
+                "murderer",
+                "assassin",
+                "thief",
+                "con artist"
+            ]
+        }
+    },
+    "climate": {
+        "temperature": "",
+        "humidity": "",
+        "special_weather": {
+            "spring": [],
+            "summer": [],
+            "fall": [],
+            "winter": []
+        }
+    },
+    "loot_tables": [],
+    "foraging": {
+        "spring": {   
+            "alchemy": {},
+            "smithing": {},
+            "misc": {}
+        },
+        "summer": {   
+            "alchemy": {},
+            "smithing": {},
+            "misc": {}
+        },
+        "fall": {   
+            "alchemy": {},
+            "smithing": {},
+            "misc": {}
+        },
+        "winter": {   
+            "alchemy": {},
+            "smithing": {},
+            "misc": {}
+        }
+    }
+}
+
+{
+    "name": "",
+    "spawn_floor": 0,
+    "spawn_ceiling": 0,
+    "loot": {
+
+    }
+}

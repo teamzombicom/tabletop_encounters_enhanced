@@ -1,32 +1,127 @@
 {
     "display_name": "City",
     "terrain": {
-        "narrow_alley": "",
-        "rooftop": "",
-        "docks": "",
-        "house": "",
-        "inn": ""
+        "narrow_alley": "a narrow alley between several buildings",
+        "rooftop": "the roof of one or more buildings along the street",
+        "house": "inside a nearby house",
+        "tavern": "inside a nearby tavern",
+        "shop": "",
+        "guard checkpoint": "",
+        "middle of the street": "",
+        "storehouse": "",
+        "intersection": "",
+        "sidewalk": ""
     },
-    "obstacles": {
-        "wagon": "",
-        "child": "",
-        "pothole": ""
-    },
+    "obstacles": [
+        "wagon full of [wares for sale]",
+        "child",
+        "pothole",
+        "rubbish pile,",
+        "noble",
+        "commoner",
+        "brawl",
+        "draft animal",
+        "fire",
+        "crowd",
+        "people carrying objects",
+        "construction",
+        "excrement pile",
+        "gongfarmer with cart of excrement",
+        "pickpocket",
+        "children playing",
+        "pushy priest",
+        "beggar",
+        "broken glass",
+        "debris",
+        "spilled accelerants",
+        "ruffian"
+    ],
     "bestiary": {
-        "rat": ""
+        "neutral": [
+            "feral cat",
+            "feral dog",
+            "rat",
+            "swarm of rats",
+            "swarm of spiders",
+            "swarm of cockraoches"
+        ],
+        "hazards": [
+            "gray ooze",
+            "boggle",
+            "killmoulis",
+            "assassin vine",
+            "spider",
+            "coral snake"
+        ],
+        "predators": [
+            "skulk",
+            "doppleganger",
+            "madman/werewolf",
+            "dybbuk",
+            "shambling mound",
+            "vampire spawn",
+            "allip",
+            "revenant",
+            "invisible stalker",
+            "bodak",
+            "oni",
+            "boneclaw",
+            "vampire",
+            "slithering tracker"
+        ],
+        "factions": {
+            "deep_ones": [
+                "fathomer",
+                "deep scion"
+            ],
+            "citizens": [
+                "child",
+                "commoner",
+                "craftsman",
+                "noble"
+            ],
+            "criminals": [
+                "robber",
+                "burglar",
+                "pickpockets",
+                "murderer",
+                "assassin",
+                "thief",
+                "con artist"
+            ]
+        }
     },
     "climate": {
         "temperature": "",
         "humidity": "",
-        "special_weather": []
+        "special_weather": {
+            "spring": [],
+            "summer": [],
+            "fall": [],
+            "winter": []
+        }
     },
     "loot_tables": [],
     "foraging": {
-        "plants": [],
-        "animals": [],
-        "minirals": [],
-        "misc": {
-
+        "spring": {   
+            "alchemy": {},
+            "smithing": {},
+            "misc": {}
+        },
+        "summer": {   
+            "alchemy": {},
+            "smithing": {},
+            "misc": {}
+        },
+        "fall": {   
+            "alchemy": {},
+            "smithing": {},
+            "misc": {}
+        },
+        "winter": {   
+            "alchemy": {},
+            "smithing": {},
+            "misc": {}
         }
     }
 }

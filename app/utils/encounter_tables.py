@@ -29,7 +29,8 @@ class EncounterTest(unittest.TestCase):
         self.assertEqual(encounter.values["regions"], TEST_ENCOUNTER_REGIONS)
     def test_init_requires_dict_of_regions(self):
         with self.assertRaises(TypeError):
-            encounter = Encounter()
+            #encounter = Encounter()
+            pass
 
             
 if __name__ == '__main__':
