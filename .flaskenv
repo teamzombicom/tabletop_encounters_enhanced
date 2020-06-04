@@ -3,4 +3,4 @@ FLASK_APP=run.py
 FLASK_ENVIRONMENT=development
 FLASK_DEBUG=1
 FLASK_RUN_PORT=5000
-SQL_ALCHEMY_DATABASE_URI="sqlite:///app/encounter_tables.db"
+SQL_ALCHEMY_DATABASE_URI="sqlite:///encounter_tables.db"
