@@ -5,7 +5,7 @@ import random
 from collections import defaultdict
 
 BASE_DIRECTORY = pathlib.Path.cwd()
-TABLES_DIRECTORY = BASE_DIRECTORY / 'app' / 'utils' / 'json_tables'
+TABLES_DIRECTORY = BASE_DIRECTORY / 'app' / 'utils' / 'tables'
 
 class BaseTable:
     def __init__(self, target_table):
@@ -89,7 +89,7 @@ class Biome:
 
 class ValidateTables:
     def __init__(self):
-        table_directory = BASE_DIRECTORY.rglob('**/utils/json_tables/*')
+        table_directory = BASE_DIRECTORY.rglob('**/utils/tables/*')
         for table in table_directory:
             table_contents = table.rglob('*.json')
             for entry in table_contents:
@@ -106,8 +106,8 @@ class ClassesTest(unittest.TestCase):
             base_table = BaseTable('NOT A THING')
             if base_table is not None: pass
 
-    def test_validate_all_json_tables_against_schema(self):
-        table_directory = BASE_DIRECTORY.rglob('**/utils/json_tables/*')
+    def test_validate_all_tables_against_schema(self):
+        table_directory = BASE_DIRECTORY.rglob('**/utils/tables/*')
         for table in table_directory:
             table_contents = table.rglob('*.json')
             for entry in table_contents:
