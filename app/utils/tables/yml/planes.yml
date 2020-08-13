@@ -1,8 +1,69 @@
-table: planes
-value_class: RandomAgeTableValue
+table: Planes
 items:
-  - {roll: [01, 39], value: {name: Young adult, memories: 1}}
-  - {roll: [40, 74], value: {name: Early middle-age, memories: 2}}
-  - {roll: [75, 91], value: {name: Late middle-age, memories: 3}}
-  - {roll: [92, 97], value: {name: Old, memories: 4}}
-  - {roll: [98, 100], value: {name: Very old, memories: 5}}
+  - roll: [1, 1]
+    value:
+      name: Ethereal Planes
+      description: text
+    subtables:
+      - table: 
+        name: Material Planes
+        description: text
+        items:
+          - {roll: [1, 1], value: {name: Material Plane, description: text}}
+          - {roll: [2, 2], value: {name: Feywild, description: text}}
+          - {roll: [3, 3], value: {name: Shadowfell, description: text}}
+      - table: 
+        name: Inner Planes
+        description: text
+        items:
+          - {roll: [1, 1], value: {name: Air, description: text}}
+          - {roll: [2, 2], value: {name: Earth, description: text}}
+          - {roll: [3, 3], value: {name: Fire, description: text}}
+          - {roll: [4, 4], value: {name: Water, description: text}}
+          - {roll: [5, 5], value: {name: Ash, description: text}}
+          - {roll: [6, 6], value: {name: Frost, description: text}}
+          - {roll: [7, 7], value: {name: Magma, description: text}}
+          - {roll: [8, 8], value: {name: Ooze, description: text}}
+          - {roll: [9, 9], value: {name: Elemental Chaos, description: text}}
+  - roll: [2, 2]
+    value:
+      name: Astral Planes
+      description: text
+    subtables:
+      - table: Outer Planes
+        description: text
+        subtables:
+          - table: Upper Planes
+            description:
+            items:
+            - {roll: [1, 1], value: {name: Arcadia, alignment: text, description: text}}
+            - {roll: [2, 2], value: {name: Mount Celestia, alignment: text, description: text}}
+            - {roll: [3, 3], value: {name: Bytopia, alignment: text, description: text}}
+            - {roll: [4, 4], value: {name: Elysium, alignment: text, description: text}}
+            - {roll: [5, 5], value: {name: Beastlands, alignment: text, description: text}}
+            - {roll: [6, 6], value: {name: Arboria, alignment: text, description: text}}
+            - {roll: [7, 7], value: {name: Ysgard, alignment: text, description: text}}
+          - table: Neutral Planes
+            description:
+            items:
+            - {roll: [1, 1], value: {name: Mechanus, alignment: text, description: text}}
+            - {roll: [2, 2], value: {name: Limbo, alignment: text, description: text}}
+          - table: Lower Planes
+            description:
+            items:
+            - {roll: [1, 1], value: {name: Acheron, alignment: text, description: text}}
+            - {roll: [2, 2], value: {name: Baator, alignment: text, description: text}}
+            - {roll: [3, 3], value: {name: Gehenna, alignment: text, description: text}}
+            - {roll: [4, 4], value: {name: The Gray Waste, alignment: text, description: text}}
+            - {roll: [5, 5], value: {name: Carceri, alignment: text, description: text}}
+            - {roll: [6, 6], value: {name: Abyss, alignment: text, description: text}}
+            - {roll: [7, 7], value: {name: Pandemonium, alignment: text, description: text}}
+
+  - roll: [3, 3]
+    value:
+      name: Ordial Planes
+      description: "The Rule of Three determines everything that structures the Outer Planes; 
+      the Unity of Rings says that everything works in circles. The Material, Inner, and Outer Planes are a Trinity.
+      The Astral connects the Prime Material with the Great Wheel of the Outer Planes, and the Ethereal connects the Prime
+      and Inner planes; what, then, connects the Inner and Outer? The wheel is broken, and where there should be a Trinity of
+      Transitive Planes, we have nothing. There must be a third Transitive Plane, one which completes the wheel of planar connections."

@@ -1,6 +1,6 @@
 table: regions
 items:
-  - roll: [1, 8]
+  - roll: [1, 1]
     value:
       name: Arctic
     subtables:
@@ -17,7 +17,7 @@ items:
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
 
-  - roll: [9, 16]
+  - roll: [2, 2]
     value:
       name: Coastal
     subtables:
@@ -33,7 +33,7 @@ items:
           - {roll: [8, 8], value: {name: text}}
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
-  - roll: [20, 24]
+  - roll: [3, 3]
     value:
       name: Desert
     subtables:
@@ -49,7 +49,7 @@ items:
           - {roll: [8, 8], value: {name: text}}
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
-  - roll: [25, 32]
+  - roll: [4, 4]
     value:
       name: Forest
     subtables:
@@ -65,7 +65,7 @@ items:
           - {roll: [8, 8], value: {name: text}}
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
-  - roll: [33, 40]
+  - roll: [5, 5]
     value:
       name: Grassland
     subtables:
@@ -81,7 +81,7 @@ items:
           - {roll: [8, 8], value: {name: text}}
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
-  - roll: [41, 48]
+  - roll: [6, 6]
     value:
       name: Hill
     subtables:
@@ -97,7 +97,7 @@ items:
           - {roll: [8, 8], value: {name: text}}
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
-  - roll: [49, 56]
+  - roll: [7, 7]
     value:
       name: Mountain
     subtables:
@@ -113,7 +113,7 @@ items:
           - {roll: [8, 8], value: {name: text}}
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
-  - roll: [57, 64]
+  - roll: [8, 8]
     value: 
       name: Swamp
     subtables:
@@ -129,7 +129,7 @@ items:
           - {roll: [8, 8], value: {name: text}}
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
-  - roll: [65, 72]
+  - roll: [9, 9]
     value:
       name: Underdark
     subtables:
@@ -145,7 +145,7 @@ items:
           - {roll: [8, 8], value: {name: text}}
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
-  - roll: [73, 80]
+  - roll: [10, 10]
     value:
       name: Underwater
     subtables:
@@ -161,7 +161,7 @@ items:
           - {roll: [8, 8], value: {name: text}}
           - {roll: [9, 9], value: {name: text}}
           - {roll: [10, 10], value: {name: text}}
-  - roll: [81, 90]
+  - roll: [11, 11]
     value:
       name: Urban
     subtables:
@@ -169,28 +169,3 @@ items:
         items:
           - {roll: [1, 1], value: {name: text}}
           - {roll: [2, 2], value: {name: text}}
-
-  - roll: [91, 100]
-    value:
-      name: Astral
-    subtables:
-      - table: plane
-        items:
-          - roll: [1, 1]
-            value:
-              name: Feywild
-          - roll: [2, 2]
-            value: 
-              name: Shadowfell
-          - roll: [3, 3]
-            value: 
-              name: Ethereal
-          - roll: [4, 4]
-            value: 
-              name: Astral
-          - roll: [5, 5]
-            value: 
-              name: Inner
-          - roll: [6, 6]
-            value: 
-              name: Yuan-ti
