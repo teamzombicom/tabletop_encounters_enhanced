@@ -1,0 +1,171 @@
+table: regions
+items:
+  - roll: [1, 1]
+    value:
+      name: Arctic
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+
+  - roll: [2, 2]
+    value:
+      name: Coastal
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+  - roll: [3, 3]
+    value:
+      name: Desert
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+  - roll: [4, 4]
+    value:
+      name: Forest
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+  - roll: [5, 5]
+    value:
+      name: Grassland
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+  - roll: [6, 6]
+    value:
+      name: Hill
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+  - roll: [7, 7]
+    value:
+      name: Mountain
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+  - roll: [8, 8]
+    value: 
+      name: Swamp
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+  - roll: [9, 9]
+    value:
+      name: Underdark
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+  - roll: [10, 10]
+    value:
+      name: Underwater
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
+          - {roll: [3, 3], value: {name: text}}
+          - {roll: [4, 4], value: {name: text}}
+          - {roll: [5, 5], value: {name: text}}
+          - {roll: [6, 6], value: {name: text}}
+          - {roll: [7, 7], value: {name: text}}
+          - {roll: [8, 8], value: {name: text}}
+          - {roll: [9, 9], value: {name: text}}
+          - {roll: [10, 10], value: {name: text}}
+  - roll: [11, 11]
+    value:
+      name: Urban
+    subtables:
+      - table: terrain
+        items:
+          - {roll: [1, 1], value: {name: text}}
+          - {roll: [2, 2], value: {name: text}}
